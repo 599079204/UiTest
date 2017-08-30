@@ -5,6 +5,7 @@ import android.support.v4.util.ArrayMap;
 import java.util.Map;
 
 /**
+ * 特殊的Map. 键,值都是自定义的类型
  * Created by ljw on 2017/8/30.
  */
 

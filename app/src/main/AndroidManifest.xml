@@ -16,7 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".menu.vpAndFrag.ActVpAndFrag" />
+        <activity android:name=".menu.vpConFrag.ActVpConFrag" />
+        <activity android:name=".menu.fragPagerStateAdapter.ActFPSA" />
     </application>
 
 </manifest>

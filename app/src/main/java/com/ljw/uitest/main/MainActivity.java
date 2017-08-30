@@ -6,7 +6,8 @@ import android.support.v7.widget.RecyclerView;
 
 import com.ljw.uitest.BaseActivity;
 import com.ljw.uitest.R;
-import com.ljw.uitest.menu.vpAndFrag.ActVpAndFrag;
+import com.ljw.uitest.menu.fragPagerStateAdapter.ActFPSA;
+import com.ljw.uitest.menu.vpConFrag.ActVpConFrag;
 
 import java.util.ArrayList;
 
@@ -34,7 +35,8 @@ public class MainActivity extends BaseActivity {
     private ArrayList<JumpEntity> obtain() {
         ArrayList<JumpEntity> list = new ArrayList<>();
 
-        list.add(new JumpEntity("Viewpager中包含fragment", ActVpAndFrag.class));
+        list.add(new JumpEntity("测试FragmentPagerStateAdapter", ActFPSA.class));
+        list.add(new JumpEntity("Viewpager中包含fragment", ActVpConFrag.class));
 
         return list;
     }

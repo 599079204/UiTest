@@ -1,4 +1,4 @@
-package com.ljw.uitest.menu.vpAndFrag;
+package com.ljw.uitest.menu.vpConFrag;
 
 import android.os.Bundle;
 
@@ -11,7 +11,7 @@ import butterknife.ButterKnife;
  * Created by ljw on 2017/8/30.
  */
 
-public class ActVpAndFrag extends BaseActivity {
+public class ActVpConFrag extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
