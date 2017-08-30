@@ -1,0 +1,8 @@
+*.iml
+**/build/
+.gradle/
+.idea/
+*.properties
+
+!gradle-wrapper.properties
+!gradle.properties
