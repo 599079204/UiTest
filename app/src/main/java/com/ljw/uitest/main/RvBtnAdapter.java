@@ -17,6 +17,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 
 /**
+ * a
  * Created by ljw on 2017/8/30.
  */
 
@@ -26,7 +27,7 @@ public class RvBtnAdapter extends RecyclerView.Adapter<RvBtnAdapter.ViewHolder>
     private Context mContext;
     private ArrayList<JumpEntity> mDataSource;
 
-    public RvBtnAdapter(@NonNull Context context, @NonNull ArrayList<JumpEntity> dataSource) {
+    RvBtnAdapter(@NonNull Context context, @NonNull ArrayList<JumpEntity> dataSource) {
         mContext = context;
         mDataSource = dataSource;
     }

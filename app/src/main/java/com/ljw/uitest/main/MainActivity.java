@@ -26,7 +26,7 @@ public class MainActivity extends BaseActivity {
         ButterKnife.bind(this);
 
         LinearLayoutManager layoutManager = new LinearLayoutManager(this,
-                LinearLayoutManager.VERTICAL, true);
+                LinearLayoutManager.VERTICAL, false);
         mRvContent.setLayoutManager(layoutManager);
         RvBtnAdapter rvBtnAdapter = new RvBtnAdapter(this, obtain());
         mRvContent.setAdapter(rvBtnAdapter);
